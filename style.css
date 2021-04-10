@@ -3,8 +3,8 @@
 :root {
   --red: hsl(0, 100%, 74%);
   --green: hsl(154, 59%, 51%);
-  --blue: hsl(248, 32%, 49%);
-  --darkBlue: hsl(249, 10%, 26%);
+  --purple: hsl(248, 32%, 49%);
+  --darkPurple: hsl(249, 10%, 26%);
   --greyBlue: hsl(246, 25%, 77%);
   --white: hsl(0, 0%, 100%);
   --borderRadius: 10px;
@@ -112,7 +112,7 @@ body {
   outline: none;
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--darkBlue);
+  color: var(--darkPurple);
 }
 
 .right-col button {
