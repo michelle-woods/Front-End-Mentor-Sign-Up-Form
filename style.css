@@ -131,14 +131,27 @@ body {
   color: hsl(246, 25%, 77%);
 }
 
-.right-col .form-footer span {
-columns: hsl(0, 100%, 74%);
+.right-col .form-footer span a {
+color: hsl(0, 100%, 74%);
 font-weight: 700px;
 }
 
+footer {
+  background-color:  hsl(0, 100%, 74%);
+}
+
+footer attribution {
+color:hsl(0, 0%, 100%)
+}
+
 @media only screen and (min-width: 768px) {
-    .container {
-        flex-direction: row;
-        background-image: url(./images/bg-intro-desktop.png);
+  .container {
+    flex-direction: row;
+    background-image: url(./images/bg-intro-desktop.png);
     }
 }
+
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-size: contain; } }
