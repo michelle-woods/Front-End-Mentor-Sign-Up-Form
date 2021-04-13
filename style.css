@@ -152,4 +152,34 @@ color:hsl(0, 0%, 100%)
     }
 }
 
+@media only screen and (min-width: 1000px) {
+  #intro {
+    background-image: url(./images/bg-intro-desktop.png);
+  }
+
+  .container {
+    flex-direction: row;
+  }
+  .left-col {
+    text-align: left;
+    padding-right: 50px;
+  }
+}
+.left-col h1 {
+  font-size: 3rem;
+  line-height: 3.5em;
+}
+
+.left-col p {
+font-size: 1.1rem;
+}
+
+.right-col {
+  max-width: 500px;
+}
+
+.right-col .top-box {
+  padding: 20px;
+}
+
 
