@@ -29,7 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url(/images/bg-intro-mobile.png);
-  background-color: hsl(0, 100%, 74%);
+  background-color: var(--red);
 }
 
 .container {
@@ -64,7 +64,7 @@ body {
 }
 
 .right-col .top-box {
-  background-color: hsl(248, 32%, 49%);
+  background-color: var(--purple);
   color: white;
   padding: 15px 9px;
   border-radius: var(--borderRadius);
@@ -117,9 +117,9 @@ body {
 
 .right-col button {
   border: none;
-  background-color: hsl(154, 59%, 51%);
-  color: white;
+  background-color: var(--green);
   box-shadow: 0px 4px hsl(154, 56%, 44%);
+  color: var(--white);
   font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
@@ -133,12 +133,12 @@ body {
 }
 
 .right-col .form-footer span a {
-color: hsl(0, 100%, 74%);
+color: var(--red);
 font-weight: 700px;
 }
 
 footer {
-  background-color:  hsl(0, 100%, 74%);
+  background-color:  var(--red);
 }
 
 footer attribution {
