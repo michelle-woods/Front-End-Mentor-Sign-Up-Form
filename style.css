@@ -129,6 +129,7 @@ body {
 .right-col .form-footer {
   margin-top: 10px;
   color: hsl(246, 25%, 77%);
+  font-size: 11px;
 }
 
 .right-col .form-footer span a {
