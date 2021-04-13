@@ -164,7 +164,7 @@ color:hsl(0, 0%, 100%)
     text-align: left;
     padding-right: 50px;
   }
-}
+
 .left-col h1 {
   font-size: 3rem;
   line-height: 3.5em;
@@ -182,4 +182,16 @@ font-size: 1.1rem;
   padding: 20px;
 }
 
+.right-col .top-box p{
+  font-size: 1.1rem;
+}
+.right-col .form-container {
+  padding: 40px;
+}
+.right-col input,
+.right-col input::placeholder {
+margin-top: 20px;
+font-size: 1rem;
+}
+}
 
