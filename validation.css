@@ -1,0 +1,23 @@
+input:invalid {
+    border: 2px solid red;
+  }
+  
+  input:valid {
+    border: 2px solid green;
+  }
+  
+  input:invalid:required {
+    color: red;
+  }
+  
+  input:valid:required {
+    color: green;
+  }
+  
+  #form {
+  }
+  
+  .error-text {
+    opacity: 0;
+    display: none;
+  }
